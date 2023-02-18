@@ -1,15 +1,15 @@
 
 <pre>
     <?php
-    echo "index3.php";
+    echo "index2.php";
 class Personnage {
     //propriété
     private $Speudo;
     private $Vie;
     
     //Methode
-    public function __construct($Speudo,$Vie){
-        $this->Vie = $Vie;
+    public function __construct($Speudo){
+        $this->Vie = 100;
         $this->Speudo = $Speudo;
     }
 
