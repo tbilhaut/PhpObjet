@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-    require("Exo2.php");
+    require("Exo3.php");
 $Personnage1 = new Personnage("Théodu80<p>",100);
 
 $Personnage1 -> afficheVie();
