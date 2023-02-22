@@ -8,18 +8,15 @@ class Personnage {
     private $Vie;
     
     //Methode
-    public function __construct($Speudo){
+    public function __construct($Pseudo){
         $this->Vie = 100;
-        $this->Speudo = $Pseudo;
+        $this->Pseudo = $Pseudo;
     }
 
     public function  afficheVie() {
-        echo "Mon pseudo est ".$this->PSeudo;
+        echo "Mon pseudo est ".$this->Pseudo;
         echo "Ma vie est de ".$this->Vie;
     }
-  
-
 }
 ?>
-
 </pre>
