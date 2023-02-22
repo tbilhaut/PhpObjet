@@ -4,17 +4,17 @@
     echo "index2.php";
 class Personnage {
     //propriété
-    private $Speudo;
+    private $Pseudo;
     private $Vie;
     
     //Methode
     public function __construct($Speudo){
         $this->Vie = 100;
-        $this->Speudo = $Speudo;
+        $this->Speudo = $Pseudo;
     }
 
     public function  afficheVie() {
-        echo "Mon speudo est ".$this->Speudo;
+        echo "Mon pseudo est ".$this->PSeudo;
         echo "Ma vie est de ".$this->Vie;
     }
   
