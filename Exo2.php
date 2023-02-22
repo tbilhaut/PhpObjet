@@ -3,7 +3,7 @@
     echo "index2.php";
 class Personnage {
     //propriété
-    private $Speudo;
+    private $Pseudo;
     private $Vie;
     
     //Methode
